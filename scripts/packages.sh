@@ -1,4 +1,3 @@
 #!/bin/sh -eux
 
-apt-get -y install vim curl mc atop
-curl -L https://www.opscode.com/chef/install.sh | sudo bash
+apt-get -y install vim curl mc atop htop nmap tcpdump screen netcat-openbsd
